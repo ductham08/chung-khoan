@@ -16,11 +16,34 @@
 </head>
 <body>
     <div class="chung-khoan-page">
-        <!-- SEARCH START -->
+        <!-- NAVBAR START -->
         <div class="navbar">
-
+            <div class="btn-nav col-1">
+                <div class="item-btn top"></div>
+                <div class="item-btn center"></div>
+                <div class="item-btn bottom"></div>
+            </div>
+            <div class="search col-8">
+                <div class="icon">
+                    <img src="./publics/images/search-navbar.png" width="100%" alt="">
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="Tìm kiếm...">
+                </div>
+                <div class="icon micro">
+                    <img src="./publics/images/micro-navbar.png" width="100%" alt="">
+                </div>
+            </div>
+            <div class="noti-navbar col-2">
+                <div class="icon mess">
+                    <img src="./publics/images/mess-navbar.png" width="100%" alt="">
+                </div>
+                <div class="icon noti">
+                    <img src="./publics/images/noti-navbar.png" width="100%" alt="">
+                </div>
+            </div>
         </div>
-        <!-- SEARCH END -->
+        <!-- NAVBAR END -->
 
         <!-- LINE BAR START -->
         <div class="left-bar">
@@ -183,6 +206,19 @@
                 disableOnInteraction: false,
             },
         });
+
+        // NAV LEFT START
+        $(document).ready(function() {
+
+            $(".btn-nav").click(function() {
+                $(".left-bar").addClass("active");
+            });
+
+            $(".background-left-bar").click(function() {
+                $(".left-bar").removeClass("active");
+            });
+        });
+        // NAV LEFT END
 
     </script>
 
