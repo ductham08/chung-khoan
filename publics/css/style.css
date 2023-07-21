@@ -224,11 +224,12 @@ body{
 
 .navbar{
     background-color: #bf202e;
-    box-shadow: 0px 3px 5px 1px black;
+    box-shadow: 0px 2px 5px 0px black;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
+    z-index: 2;
 }
 
 .navbar .icon{
@@ -283,3 +284,117 @@ body{
 }
 
 /* NAVBAR END */
+
+/* NAV BOTTOM START */
+
+.nav-bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bottom .item-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bottom .icon{
+    text-align: center;
+}
+
+.nav-bottom .icon img{
+    width: 30px;
+}
+
+.nav-bottom .item-nav-bottom{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav-bottom .item-nav-bottom p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.nav-bottom .item-nav-bottom a{
+    color: black;
+}
+
+.nav-bottom .item-left{
+    border-top: 2px solid #a00814;
+    /* border-right: 2px solid #a00814; */
+    padding: 5px 10px !important;
+    border-top-right-radius: 25px;
+}
+
+.nav-bottom .item-right{
+    border-top: 2px solid #a00814;
+    /* border-right: 2px solid #a00814; */
+    padding: 5px 10px !important;
+    border-top-left-radius: 25px;
+}
+
+.nav-bottom .item-center{
+    border-bottom: 2px solid #a00814;
+    border-radius: 100%;
+    margin-top: -45px;
+    padding: 20px;
+}
+
+.nav-bottom .item-center .circle{
+    border-radius: 100%;
+    background-color: #a00814;
+}
+
+
+/* NAV BOTTOM END */
+
+
+
+/* MAIN START */
+
+.main .actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+}
+
+.main .actions .item-action{
+    text-align: center;
+}
+
+.main .actions .icon{
+    background: rgb(191,32,46);
+    background: linear-gradient(180deg, rgba(191,32,46,1) 0%, rgba(141,3,3,1) 100%);
+    text-align: center;
+    width: 70px;
+    padding: 12px 0;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px black;
+} 
+
+.main .actions .icon img{
+    height: 18px;
+}
+
+.main .actions p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.main .actions .item-action a{
+    color: black ;
+}
+
+/* MAIN END */
