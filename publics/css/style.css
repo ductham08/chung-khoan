@@ -792,3 +792,248 @@ body.active{
 
 
 /* SETTING PAGE END */
+
+/* ACCOUNT PAGE START */
+
+.main-account{
+    margin: 25px 0;
+}
+
+.main-account .account-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-account .account-info .avatar,
+.main-account .account-info .user-name{
+    position: relative;
+}
+
+.main-account .account-info .avatar .btn-edit{
+    width: 25px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.main-account .account-info .user-name {
+    width: max-content;
+    margin: 15px 0;
+}
+
+.main-account .account-info .user-name h3{
+    font-family: "aver-bold";
+}
+
+.main-account .account-info .user-name .btn-edit{
+    width: 15px;
+    position: absolute;
+    right: -20px;
+    bottom: 2px;
+}
+
+.account-page .actions{
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.account-page .actions .item-action a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+
+/* ACCOUNT PAGE END */
+
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+
+/* MARKET PAGE START */
+
+.main-market .nav-mini{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.main-market .nav-mini button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-market .nav-mini .icon img{
+    width: 12px;
+    margin: 0px 5px;
+}
+
+.main-market .market{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -99;
+    transition: 0.5s ease-in-out;
+    transform: translateY(-100vh);
+}
+
+.main-market .market.active{
+    transform: translateY(0);
+    z-index: 99;
+    transition: 0.5s ease-in-out;
+}
+
+.main-market .market .bg-market{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main-market .market .list-market{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 15px;
+}
+
+.main-market .market .list-market .item-market{
+    box-shadow: 0px 0px 5px 0px black;
+    border: 1px solid gray;
+    border-radius: 7px;
+    background-color: white;
+    margin: 15px 0;
+    text-align: center;
+    padding: 5px;
+}
+
+.main-market .market .btn-submit{
+    margin: 10px 0;
+}
+
+/* MARKET PAGE END */
+
+/* VALIDATE PAGE START */
+
+.validate-page .form-signin{
+    padding: 15px ;
+}
+
+.validate-page .form-signin .item-form{
+    margin: 15px 0
+}
+
+.validate-page .form-signin .item-form .btn-image{
+    border: 1px solid gainsboro;
+    margin: 5px 0;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.validate-page .form-signin .item-form button{
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    border: 1px solid #9b9b9b;
+    border-radius: 100%;
+}
+
+.validate-page .form-signin .item-form button p{
+    padding-left: 0 !important;
+    margin: 0;
+    font-family: 'aver-bold';
+    color: #9b9b9b;
+}
+
+/* VALIDATE PAGE END */
+
+
+/* LOGIN PAGE START */
+
+.login-page{
+    background-image: url("../images/background-login.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-signin{
+    margin: auto;
+    background-color: transparent;
+}
+
+.login-page .navbar-page{
+    margin-top: 50px;
+}
+
+.login-page .main-signin .form-login{
+    padding: 15px 35px;
+}
+
+.login-page .main-signin .form-login .item-form{
+    margin: 20px 0;
+}
+
+.login-page .main-signin .form-login .item-form input{
+    outline: none;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.login-page .main-signin .form-login .item-form-submit .btn-submit {
+    background-color: #a00a25;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page .main-signin .form-login .item-form-submit{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.login-page .main-signin .form-login .item-form-submit .btn-submit button{
+    text-align: center;
+}
+
+.login-page .main-signin .form-login .item-form-submit .btn-submit button p{
+    color: white;
+}
+
+.login-page .main-signin .form-login .item-form-submit .faceid{
+    padding-left: 10px !important;
+}
+
+.login-page .main-signin .form-login .item-form-submit .faceid button{
+    padding: 5px !important;
+    border-radius: 5px;
+    background-color: #333333;
+}
+
+/* LOGIN PAGE END */
