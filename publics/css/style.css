@@ -288,14 +288,17 @@ body{
 /* NAV BOTTOM START */
 
 .nav-bottom {
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
-    bottom: 0;
     background-color: white;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 5;
+    max-width: 768px;
+    margin: auto;
 }
 
 .nav-bottom .item-bottom{
@@ -366,6 +369,18 @@ body{
 
 /* MAIN START */
 
+.main{
+    overflow-y: auto;
+    max-height: 90%;
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+}
+
 .main .actions{
     display: flex;
     align-items: center;
@@ -399,5 +414,55 @@ body{
 .main .actions .item-action a{
     color: black ;
 }
+
+
+
+/* LIST ITEM START */
+
+.main .list-item .item-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.main .list-item hr{
+    margin: 5px 0;
+}
+
+.main .list-item .name-item{
+    text-align: left;
+}
+
+.main .list-item .name-item a{
+    color: black;
+}
+
+.main .list-item .name-item p{
+    font-size: 12.5px;
+    color: #535353;
+}
+
+.main .list-item .chart-item img{
+    max-width: 55px;
+}
+
+.main .list-item .number-item {
+    text-align: right;
+    font-size: 13px;
+}
+
+
+.main .list-item .number-item .number-bottom{
+    font-size: 12.5px;
+}
+
+.main .list-item .more a{
+    font-size: 13px;
+    color: #535353;
+    padding: 0 10px;
+}
+
+/* LIST ITEM END */
 
 /* MAIN END */
