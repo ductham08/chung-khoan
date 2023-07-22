@@ -106,7 +106,11 @@ a {
 /* CSS RESET END */
 
 body{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
+}
+
+body.active{
+    overflow: hidden;
 }
 
 .chung-khoan-page{
@@ -178,7 +182,7 @@ body{
 
 .left-bar .content-left-bar .info-user a{
     color: black;
-    font-size: 13px;
+    font-size: 13.5px;
 }
 
 .left-bar .content-left-bar .option {
@@ -228,7 +232,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 12.32px 10px;
     z-index: 2;
 }
 
@@ -252,7 +256,7 @@ body{
     border: none;
     outline: none;
     background-color: transparent;
-    font-size: 13px;
+    font-size: 13.5px;
     padding: 2px 5px;
     color: white;
 }
@@ -362,9 +366,56 @@ body{
     width: 100%;
 }
 
-
 /* NAV BOTTOM END */
 
+.navbar-page{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #bf202e;
+    box-shadow: 0px 2px 5px 0px black;
+    padding: 15px 10px;
+    z-index: 2;
+}
+
+.navbar-page.page-act{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.navbar-page .icon img{
+    width: 25px;
+}
+
+.navbar-page .text-nav{
+    text-align: center;
+}
+
+.navbar-page .text-nav h5{
+    color: white;
+    font-family: 'aver-bold';
+}
+
+.navbar-page .text-nav.logo img{
+    width: 100px;
+}
+/* NAVBAR PAGE START */
+/* NAVBAR PAGE END */
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 
 
 /* MAIN START */
@@ -449,7 +500,7 @@ body{
 
 .main .list-item .number-item {
     text-align: right;
-    font-size: 13px;
+    font-size: 13.5px;
 }
 
 
@@ -458,7 +509,7 @@ body{
 }
 
 .main .list-item .more a{
-    font-size: 13px;
+    font-size: 13.5px;
     color: #535353;
     padding: 0 10px;
 }
@@ -466,3 +517,230 @@ body{
 /* LIST ITEM END */
 
 /* MAIN END */
+
+
+
+/* MAIN CSKH PAGE START */
+
+.main-cskh .btn-contact{
+    background-color: #a00814;
+    color: white;
+    text-align: center;
+    margin: 45px auto;
+    border-radius: 7px;
+}
+
+.main-cskh .btn-contact p{
+    padding: 8px 0;
+}
+
+/* MAIN CSKH PAGE END */
+
+
+/* SIGNIN PAGE START */
+.signin-page{
+    background-image: url("../images/background-dky-page.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-signin{
+    padding: 10px;
+}
+
+.main-signin .form-signin{
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+}
+
+.main-signin .form-signin .title-form h5{
+    color: #a00814;
+    font-family: 'aver-bold';
+    text-align: center;
+}
+
+.main-signin .form-signin .form{
+    margin-top: 15px;
+}
+
+.main-signin .form-signin .form .item-form{
+    margin: 10px 0;
+}
+
+.main-signin .form-signin .form .item-form p{
+    padding-left: 10px;
+    font-size: 13.5px;
+}
+
+.main-signin .form-signin .form .item-form input{
+    outline: none;
+    box-shadow: 0px 0px 3px 0px black;
+    border-radius: 7px;
+    padding: 5px 10px;
+    border: none;
+    width: 100%;
+}
+
+.main-signin .form-signin .form .item-form b{
+    color: #a00814;
+    font-size: 15px;
+}
+
+.main-signin .form-signin .note{
+    padding: 10px 25px;
+    background-color: #d5d2d2;
+    border-radius: 15px;
+    margin-top: 25px;
+    border: 1px solid #9b9b9b;
+}
+
+.main-signin .form-signin .note .icon img{
+    width: 14px;
+    margin-right: 5px;
+}
+
+.main-signin .form-signin .note .title-note{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+
+.main-signin .form-signin .note ul{
+    font-size: 13.5px;
+}
+
+.btn-submit{
+    background-color: #a00814;
+    color: white;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 7px;
+}
+
+.btn-submit p{
+    padding: 8px 0;
+}
+
+
+/* SIGNIN PAGE END */
+
+
+/* HISTORY PAGE START */
+
+.nav-mini {
+    box-shadow: 0px 0px 5px 0px black;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+
+.nav-mini .item-mini{
+    width: 25%;
+    text-align: center;
+}
+
+.nav-mini b{
+    display: block;
+    padding: 5px 0;
+    font-size: 13.5px;
+}
+
+.list-item-history .item-history{
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13.5px;
+}
+
+.list-item-history .item-history .detail-item{
+    width: 25%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.list-item-history .item-history .detail-item .success{
+    color: #06b22a;
+}
+
+.list-item-history .item-history .detail-item .fail{
+    color: #bf202e;
+}
+
+.list-item-history hr{
+    margin: 0;
+}
+
+/* HISTORY PAGE END */
+
+/* CHANGE PASS START */
+
+.main-change-pass .form-signin{
+    background-color: transparent;
+    padding: 20px 15px;
+    border-radius: 0;
+}
+
+.change-pass-page{
+    background-image: none;
+}
+
+/* CHANGE PASS END */
+
+/* PAYMENT PAGE START */
+
+.payment-page{
+    padding: 0;
+    margin: 15px 0;
+}
+
+.payment-page .detail-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.payment-page .detail-user p{
+    font-size: 13.5px;
+}
+
+.payment-page .detail-user .avatar img{
+    max-width: 100px;
+}
+
+/* PAYMENT PAGE END */
+
+/* FORGOT PASS PAGE START */
+
+.forgot-pass-page .form-signin{
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.forgot-pass-page .main-signin{
+    padding: 15px ;
+}
+
+.forgot-pass-page .form-signin .name-option{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.forgot-pass-page .form-signin .item-option{
+    margin-top: 25px;
+    font-size: 13.5px;
+}
+
+.forgot-pass-page .form-signin .item-option .btn-submit{
+    margin: 10px auto;
+}
+
+.btn-submit a{
+    color: white;
+}
+
+/* FORGOT PASS PAGE END */
