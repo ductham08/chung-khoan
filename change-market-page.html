@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt lệnh</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- SWIPPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- BASE CSS -->
+    <link rel="stylesheet" href="./publics/css/style.css">
+</head>
+
+<body>
+    <div class="chung-khoan-page account-page">
+
+        <!-- NAV BOTTOM START -->
+
+        <div class="nav-bottom">
+            <div class="item-left item-bottom col-5">
+                <div class="item-nav-bottom col-5">
+                    <a href="./index.html">
+                        <div class="icon">
+                            <img src="./publics/images/home-bottom.png" width="100%" alt="">
+                        </div>
+                        <p>Trang chủ</p>
+                    </a>
+                </div>
+                <div class="item-nav-bottom col-5">
+                    <a href="./market-page.html">
+                        <div class="icon">
+                            <img src="./publics/images/chart-bottom.png" width="100%" alt="">
+                        </div>
+                        <p>Thị trường</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-center col-2">
+                <div class="circle"></div>
+            </div>
+
+            <div class="item-right item-bottom col-5">
+                <div class="item-nav-bottom col-5">
+                    <a href="./change-market-page.html">
+                        <div class="icon">
+                            <img src="./publics/images/gavel-bottom.png" width="100%" alt="">
+                        </div>
+                        <p>Đặt lệnh</p>
+                    </a>
+                </div>
+                <div class="item-nav-bottom col-5">
+                    <a href="./cskh.html">
+                        <div class="icon">
+                            <img src="./publics/images/user-bottom.png" width="100%" alt="">
+                        </div>
+                        <p>CSKH</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAV BOTTOM END -->
+
+        <div class="navbar-page">
+            <div class="icon col-2">
+                <a href="./index.html">
+                    <img src="./publics/images/out-navbar-page.png" width="100%" alt="">
+                </a>
+            </div>
+            <div class="text-nav col-8 logo">
+                <h5>Đặt lệnh</h5>
+            </div>
+        </div>
+
+        <div class="main-change-market main">
+            <div class="form-search">
+                <div class="icon">
+                    <label for="search">
+                        <img src="./publics/images/search-icon.png" width="100%" alt="">
+                    </label>
+                </div>
+                <input id="search" type="text" placeholder="Tìm kiếm mã...">
+            </div>
+
+            <div class="nav-number">
+                <div class="item-nav-number col-4">
+                    <b class="big-number">0.00</b>
+                    <div class="min-number">
+                        <p>0.00</p>
+                        <p>0%</p>
+                    </div>
+                </div>
+                <div class="item-nav-number col-3">
+                    <div class="">
+                        <p>Khối lượng</p>
+                        <b class="number-weight">0</b>
+                    </div>
+                </div>
+                <div class="item-nav-number col-5">
+                    <div class="detail-item col-4">
+                        <p>Trần</p>
+                        <p class="detail-number-tran">0.0</p>
+                    </div>
+                    <div class="detail-item col-4">
+                        <p>TC</p>
+                        <p class="detail-number-tc">0.0</p>
+                    </div>
+                    <div class="detail-item col-4">
+                        <p>Sàn</p>
+                        <p class="detail-number-san">0.0</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart">
+                <div class="item-chart">
+                    <div class="chart-left" style="width:25%"></div>
+                    <div class="chart-right" style="width:75%"></div>
+                </div>
+                <div class="item-chart">
+                    <div class="chart-left" style="width:25%"></div>
+                    <div class="chart-right" style="width:75%"></div>
+                </div>
+                <div class="item-chart">
+                    <div class="chart-left" style="width:25%"></div>
+                    <div class="chart-right" style="width:75%"></div>
+                </div>
+                <div class="big-chart">
+                    <div class="title-chart">
+                        <p>Mua</p>
+                        <p>Bán</p>
+                    </div>
+                    <div class="item-chart">
+                        <div class="chart-left" style="width:30%"></div>
+                        <div class="chart-right" style="width:70%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form">
+
+                <div class="item-form">
+                    <div class="title col-5">
+                        <p>Tài khoản</p>
+                    </div>
+                    <div class="input col-7">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="item-form">
+                    <div class="title col-5">
+                        <p>Đặt lệnh</p>
+                    </div>
+                    <div class="input col-7">
+                        <div class="col-4">
+                            <button class="col-12 active">Mua</button>
+                        </div>
+                        <div class="col-4">
+                            <button class="col-12">Bán</button>
+                        </div>
+                        <div class="col-4">
+                            <button class="col-12">
+                                <select>
+                                    <option value="">Thường</option>
+                                    <option value="">OutR</option>
+                                </select>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="item-form">
+                    <div class="title col-5">
+                        <p>Giá</p>
+                    </div>
+                    <div class="input col-7">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="item-form">
+                    <div class="title col-5">
+                        <p>Khối lượng</p>
+                    </div>
+                    <div class="input col-7">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="item-form">
+                    <div class="title col-5">
+                        <p>Lệnh điều kiện</p>
+                    </div>
+                    <div class="input col-7">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="item-form">
+                    <div class="title col-10">
+                        <p>Sức mua</p>
+                    </div>
+                    <div class="input col-2">
+                        <p>0.0</p>
+                    </div>
+                </div>
+                <div class="item-form">
+                    <div class="title col-10">
+                        <p>Tỉ lệ ký quỹ</p>
+                    </div>
+                    <div class="input col-2">
+                        <p>0.0%</p>
+                    </div>
+                </div>
+                <div class="item-form">
+                    <div class="title col-10">
+                        <p>Mua tối đa</p>
+                    </div>
+                    <div class="input col-2">
+                        <p>0.0</p>
+                    </div>
+                </div>
+                <div class="item-form">
+                    <div class="title col-10">
+                        <p>Fal tối đa</p>
+                    </div>
+                    <div class="input col-2">
+                        <p>0.0</p>
+                    </div>
+                </div>
+                <div class="item-form">
+                    <div class="title col-10">
+                        <p>Hạn mức mua tối đa trong ngày</p>
+                    </div>
+                    <div class="input col-2">
+                        <p>0.0</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="btn-submit col-7">
+                <button>
+                    <p>Đặt lệnh</p>
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- SWIPPER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+    <script>
+
+        // SLIDER
+        var swiper = new Swiper(".slider", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+
+        // NAV LEFT START
+        $(document).ready(function () {
+
+            $(".btn-nav").click(function () {
+                $(".left-bar").addClass("active");
+                $("body").addClass("active");
+            });
+
+            $(".background-left-bar").click(function () {
+                $(".left-bar").removeClass("active");
+                $("body").removeClass("active");
+            });
+        });
+        // NAV LEFT END
+
+        // BUTTON START
+        $(document).ready(function () {
+            // Bắt sự kiện click vào các button
+            $(".item-form .input button").on("click", function () {
+                // Loại bỏ class "active" khỏi tất cả các button
+                $(".item-form .input button").removeClass("active");
+
+                // Thêm class "active" vào button được click
+                $(this).addClass("active");
+            });
+        });
+        // BUTTON END
+
+    </script>
+
+</body>
+
+</html>

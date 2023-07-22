@@ -1060,3 +1060,208 @@ button{
 }
 
 /* LOGIN PAGE END */
+
+/* CHANGE MARKET START */
+
+.main-change-market .form-search{
+    margin: 15px 10px;
+    border: 1px solid #9b9b9b;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.main-change-market .form-search .icon img{
+    width: 18px;
+    margin-right: 10px;
+}
+
+.main-change-market .form-search input{
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    width: 100%;
+}
+
+.main-change-market .nav-number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.main-change-market .nav-number .item-nav-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-change-market .nav-number .item-nav-number p{
+    font-size: 10px;
+}
+
+.main-change-market .nav-number .item-nav-number .big-number{
+    font-size: 30px;
+    margin-right: 7px;
+    font-weight: 900;
+    color: #07d2ff;
+}
+
+.main-change-market .nav-number .item-nav-number .min-number{
+    color: #07d2ff;
+}
+
+.main-change-market .nav-number .item-nav-number .detail-number-tran{
+    color: #fa2626;
+    font-size: 13px;
+}
+
+.main-change-market .nav-number .item-nav-number .detail-number-tc{
+    color: #fbdb02;
+    font-size: 13px;
+}
+
+.main-change-market .nav-number .item-nav-number .detail-number-san{
+    color: #49a1f3;
+    font-size: 13px;
+}
+
+.main-change-market .chart .item-chart{
+    width: 100%;
+    height: 13px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-change-market .chart .item-chart .chart-left{
+    height: 13px;
+    background-color: #7cdeb5;
+}
+
+.main-change-market .chart .item-chart .chart-right{
+    height: 13px;
+    background-color: #f65c5c;
+}
+
+.main-change-market .chart .big-chart .title-chart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    font: 13px;
+}
+
+.main-change-market .chart .big-chart .item-chart{
+    margin: 2px 0;
+}
+
+.main-change-market .chart .big-chart .item-chart{
+    height: 15px;
+}
+
+.main-change-market .chart .big-chart .item-chart .chart-left{
+    height: 15px;
+    background-color: #07a455;
+}
+
+.main-change-market .chart .big-chart .item-chart .chart-right{
+    height: 15px;
+    background-color: #ce0719;
+}
+
+.main-change-market .form{
+    margin: 15px 10px;
+}
+
+.main-change-market .form .item-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7px 0;
+}
+
+.main-change-market .form .item-form input{
+    outline: none;
+    box-shadow: 0px 0px 2px 0px black;
+    border-radius: 7px;
+    padding: 2px 10px;
+    border: none;
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.main-change-market .form .item-form .input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.main-change-market .form .item-form .input .col-4{
+    padding: 2px !important;
+}
+
+.main-change-market .form .item-form .input button{
+    background-color: white;
+    color: black;
+    padding: 10px 0 !important;
+    border-radius: 7px;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.main-change-market .form .item-form .input button.active{
+    background-color: #a00814;
+    color: white;
+}
+
+.main-change-market .form .item-form .input button.active select{
+    color: white;
+}
+
+.main-change-market .form .item-form .input button select{
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    border: none;
+    color: black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-align: center;
+}
+
+.main-change-market .form .item-form .input button select option {
+    background-color: #a00814  !important;
+    border: none !important;
+    text-align: center !important;
+}
+
+.main-change-market .form .item-form .col-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.main-change-market .btn-submit{
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+.main-change-market .btn-submit p{
+    color: white !important;
+}
+  
+
+
+
+
+
+/* CHANGE MARKET END */
