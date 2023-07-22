@@ -975,8 +975,12 @@ button{
 }
 
 .main-signin{
+    height: 80vh;
     margin: auto;
+    display: flex;
     background-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .login-page .navbar-page{
@@ -1034,6 +1038,13 @@ button{
     padding: 5px !important;
     border-radius: 5px;
     background-color: #333333;
+}
+
+.login-page .main-signin .actions .icon{
+    background-color: white;
+    background: white;
+    box-shadow: none;
+    width: 60px;
 }
 
 /* LOGIN PAGE END */
