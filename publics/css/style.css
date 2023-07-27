@@ -114,7 +114,7 @@ body.active{
 }
 
 .chung-khoan-page{
-    max-width: 768px;
+    max-width: 500px;
     margin: auto;
     position: relative;
     min-height: 100vh;
@@ -301,7 +301,7 @@ body.active{
     justify-content: space-between;
     align-items: center;
     z-index: 5;
-    max-width: 768px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -361,9 +361,11 @@ body.active{
 
 .nav-bottom .item-center .circle{
     border-radius: 100%;
+    max-height: 80px;
     height: 15.5vw;
     background-color: #a00814;
     width: 100%;
+    max-width: 80px;
 }
 
 /* NAV BOTTOM END */
