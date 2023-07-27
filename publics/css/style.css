@@ -699,6 +699,7 @@ body.active{
 .payment-page{
     padding: 0;
     margin: 15px 0;
+    justify-content: flex-start !important;
 }
 
 .payment-page .detail-user{
